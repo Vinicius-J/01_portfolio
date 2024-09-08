@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+	font-size: 62, 5%;
+}
+
+body {
+	background-color: #0a0a0f;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.container .menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 3rem;
+}
+
+.container .menu .icon i {
+	height: 3rem;
+	font-size: 2.5rem;
+	color: #fff;
+}
+
+.container .menu .links {
+	display: flex;
+	padding: 0 1.5rem;
+}
+
+.container .menu a {
+	margin: 0 4px;
+	text-decoration: none;
+	color: #fff;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.container .menu a:hover {
+	background-color: #14141f;
+}
+
+.container {
+	position: relative;
+	max-width: 1200px;
+	margin: auto;
+	padding: 2rem 2rem;
+}
+
+.blur {
+	position: absolute;
+	box-shadow: 0 0 1000px 50px #666699;
+	z-index: -100;
+}
+
+header {
+	position: relative;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 3rem;
+}
+
+header .content h4 {
+	margin-bottom: 1rem;
+	color: #ccc;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+header .content h1 {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 700;
+}
+
+header .content p {
+	color: #ccc;
+	text-align: justify;
+	font-size: 1rem;
+}
+
+header .content .image {
+	position: relative;
+}
+
+header .content .image img {
+	max-width: 600px;
+	max-height: 600px;
+	margin: auto;
+}
+
+.content span {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1px #fff;
+}
+
+.header {
+	margin: 3rem 0.6rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.header h2 {
+	margin-bottom: 1rem;
+}
+
+.header h4 {
+	margin-bottom: 1rem;
+	color: #ccc;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.header p {
+	color: #ccc;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	text-align: justify;
+	font-weight: 500;
+}
+
+.header .card {
+	background-color: #29293d;
+	padding: 1rem;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	align-items: center;
+	justify-items: center;
+	transition: all 500ms ease;
+}
+
+.header .features,
+.precing {
+	text-align: left;
+	margin: 3rem 1rem 0 1rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2rem;
+}
+
+.header .card:hover {
+	background-color: #33334d;
+	border-color: #ccc;
+}
+
+.header .card span {
+	display: inline-block;
+	background-color: #3366ff;
+	padding: 0.5rem 1rem;
+	border-radius: 15px;
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+.header .card a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	font-size: 1rem;
+}
+
+.header .card a:hover {
+	color: #1a53ff;
+}
+
+.precing {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.precing .card h4 {
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 1px dashed #606060;
+	padding-bottom: 1rem;
+}
+
+.header .sub-header {
+	color: #ccc;
+	text-align: justify;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 300;
+}
